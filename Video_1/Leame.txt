@@ -1,0 +1,5 @@
+1. El archivo Celsius_Farenheit_solo_1_capa.ipynb este archivo solo es para mostrar con colab_google 
+2. 1. El archivo Celsius_Farenheit_version_2_2_capa.ipynb este archivo solo es para mostrar con colab_google
+3. El archivo tfjs-node-celcius-farenheith.ipynb este archivo crea 2 archivos weights.bin y model.json, y estos archivos los almacene en 
+   la carpeta c:\IA\Files\ que manda a traer el index.html en cmd debo entrar a la carpeta c:\IA\Files\   y ejecutar el comando
+   python -m http.server 8000 y en un navegador http://localhost:8000/index.html en esta carpeta viene un leame.txt de apoyo
