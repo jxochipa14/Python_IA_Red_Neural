@@ -219,7 +219,9 @@
 			try { 
 				console.log("Cargando modelo..."); 
 				//modelo = await tf.loadGraphModel("Video_3/model.json");
-                modelo = await tf.loadGraphModel("model.json");
+                //modelo = await tf.loadGraphModel("model.json");
+				modelo = await tf.loadGraphModel("https://jxochipa14.github.io/Python_IA_Red_Neural/Video_3/model.json");
+
 				console.log("Modelo cargado correctamente:", modelo); 
 			   } catch (err) { 
 		console.error("Error al cargar el modelo:", err); 
